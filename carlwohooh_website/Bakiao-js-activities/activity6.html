@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity 6</title>
+</head>
+<body>
+    <h1>Activity 6: Interaction</h1>
+
+    <p id="message">Welcome to DOIT College!.</p>
+    <button onclick="Welcome()">Click Me</button>
+    <button onclick="Goodbye()">Click Me</button>
+    
+
+    <script>
+        function Welcome ()   {
+            document.getElementById("message"). textContent = "Welcome to DOIT College";
+        }
+        function Goodbye ()   {
+            document.getElementById("message"). textContent = "Goodbye!"
+        }
+    </script>
+</body>
+</html>

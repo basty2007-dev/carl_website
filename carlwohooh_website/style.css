@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f2f4f8;
+    color: #1f2937;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: #ffffff;
+    padding: 15px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.navbar a {
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #2563eb;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* HEADER */
+.site-header {
+    background-color: #2563eb;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.site-header h1 {
+    font-size: 36px;
+}
+
+.site-header p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+/* CONTAINER */
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* CARDS */
+.card {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+    color: #2563eb;
+    margin-bottom: 15px;
+}
+
+/* LISTS */
+.card ul {
+    padding-left: 20px;
+}
+
+.card li {
+    margin-bottom: 8px;
+}
+
+/* SKILLS */
+.skills {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.skills li {
+    list-style: none;
+    background-color: #e5e7eb;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+/* FOOTER */
+.site-footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1f2937;
+    color: white;
+}
+.activity-section {
+    text-align: center; /* centers heading and list items */
+    margin: 20px auto;
+}
+
+.activity-section ul {
+    list-style-type: none; /* removes bullets if you want */
+    padding: 0;
+}
+
+.activity-section li {
+    margin: 5px 0; /* adds some space between items */
+}
